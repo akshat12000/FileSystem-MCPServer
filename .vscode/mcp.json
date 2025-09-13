@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "filesystem-explorer": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["c:\\Work\\Vibe_Coding\\MCPServer\\build\\index.js"]
+    }
+  }
+}

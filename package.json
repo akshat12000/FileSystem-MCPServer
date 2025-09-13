@@ -1,0 +1,40 @@
+{
+  "name": "filesystem-mcp-server",
+  "version": "1.0.0",
+  "description": "A beginner-friendly MCP server for file system exploration",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "filesystem-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "filesystem",
+    "ai",
+    "llm",
+    "tools"
+  ],
+  "author": "MCP Developer",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
